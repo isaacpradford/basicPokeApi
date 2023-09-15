@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="index.js" defer></script>
+  <title>Tailwind</title>
+</head>
+
+<style>
+    .types > li {
+        border: solid black 2px;
+        padding: 10px;
+        margin: auto;
+    }
+
+</style>
+<body>
+  <h1 class="text-3xl font-bold bg-slate-800 text-white">
+    PokeList
+  </h1>
+
+  <ul id="typeList" class="types bg-slate-100 flex flex-wrap border-2 p-10"></ul>
+  <ul id="pokeList" class="pokemon flex-auto text-center"></ul>
+</body>
+</html>
